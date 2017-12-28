@@ -55,7 +55,7 @@ contract SecretBallot {
   * @dev Get total votes for option
   * @param _option Voting option
   */
-  function getTotalVotes(unit _option) constant public returns (uint total) {
+  function getTotalVotes(uint _option) constant public returns (uint total) {
     return totals[_option];
   }
 
